@@ -1,0 +1,179 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	font-size:14px;
+	line-height:20px;
+	font-family:"HelveticaNeueETW01-55Rg";
+	color:#000000;
+	margin-top:2em;
+}
+/*classes funcionais*/
+.floatme {
+	float:left;
+}
+
+.floatme-right {
+	float:right;
+}
+
+.azul {
+	color:#00499f;
+}
+
+.bd-bt {
+	border-bottom:1px solid #00499f;
+}
+
+/* header */
+
+#logo {
+	margin-right:50px;
+}
+
+#page-title h1 {
+	font-size: 1.7em;
+    line-height: 0.96em;
+}
+
+#header {
+	padding-bottom:1em;
+}
+
+
+/* nav-bar */
+
+#nav-bar, #idioma, #font-resize {
+	height:30px;
+}
+#idioma a, #font-resize a {
+	text-decoration:none;
+	color:#00499f;
+	display:block;
+}
+#idioma, #font-resize {
+	padding-top:9px;
+}
+
+#idioma {
+	font-size:0.9em;
+	
+}
+#idioma a {
+	border-right:solid 1px #00499f;
+	padding-right:2em;
+}
+
+#search {
+	width: 114px;
+	padding-left:4p;
+	border: solid #A7A6A6 0px;
+	float:left;
+}
+#submit {
+	float:left;
+	padding-left:2px;
+	padding-top:1px;
+}
+
+#form-search {
+	border: 1px solid #00499f;
+	margin-top:5px;
+	margin-right:2px;
+	left:398px;
+}
+
+/* menu */
+#main-menu {z-index:9999;}
+
+#main-menu li {
+	position:relative;
+	display:block;
+	
+}
+
+#main-menu a {
+	text-decoration:none;
+	max-width:200px;
+	display:block;
+	font-size:0.8em;
+	color:#00499f;
+}
+
+#main-menu > li > a {
+	font-weight:bold;
+	text-transform:uppercase;
+	padding:0.42em 0px;
+	display:block;
+	
+}
+
+#main-menu li ul {
+	width:220px;
+	
+	float:left;
+	background-color:#7fa4cf;
+	position:absolute;
+	z-index:9999;
+}
+#main-menu li {
+	padding:0px 10px;
+}
+
+#main-menu > li {
+	padding-left:0px;
+	width:200px;
+}
+
+
+#main-menu li ul li:hover {
+	background-color:#90a1b7;
+}
+
+#main-menu li ul li ul {
+	position:absolute;
+	left:220px;
+	top:0px;
+	background-color:#dde3e9;
+}
+
+.leaf a {
+	display:block;
+	width:100%;
+	padding:5px 0px;
+	text-transform:uppercase;
+	border-bottom:1px solid #00499f;
+}
+
+.dropdown { display:none; }
+li.expandable:hover > ul.dropdown  {display:block; z-index:9999;}
+
+/* artigo */
+
+#h-group {
+	padding-top:2.5em;
+	border-bottom:1px solid #00499f;
+	padding-bottom:1em;
+	margin-bottom:2em;
+}
+
+#cap-title {
+	font-family:"HelveticaNeueETW01-65Md";
+	color:#00499f;
+	font-weight:bold;
+	font-size:1.25em;
+	line-height:1em;
+}
+
+#article-title {
+	font-weight:200;
+	font-size:3.750em;
+	text-transform:uppercase;
+	font-family:"HelveticaNeueETW01-45Lt";
+	color:#00499f;
+	line-height:1em;
+}
+
+#article .content p, #article .content ul, 
+#article .content div, #article .content table {
+	margin-bottom:1em;
+}
